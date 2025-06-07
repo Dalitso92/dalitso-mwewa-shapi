@@ -1,0 +1,207 @@
+<?php 
+ session_start();
+ if(isset($_SESSION['message'])){
+ 	echo "<script>alert('" .$_SESSION['message'] ."');</script>";
+ 	unset($_SESSION['message']);
+
+
+ }
+
+
+ ?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow-x:hidden ;
+		}
+	</style>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="header and footer.css">
+	<link rel="stylesheet" type="text/css" href="content.css">
+    <link rel="stylesheet" type="text/css" href="webs.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>dalitso mwewa shapi</title>
+</head>
+<body>
+
+
+<header>
+<div class="logo">
+
+	<h2>Dalitso Shapi</h2>
+</div>
+	<nav>
+		<ul>
+			<li> <a href="#about">about</a></li>
+			<li> <a href="#contact">contacts</a></li>
+			
+		</ul>
+	</nav>
+
+
+</header>
+
+
+
+<div class="main">
+
+<img class="img" src="profile.jpg" alt="DALITSO SHAPI">
+
+
+         <div class="para">
+
+
+	<h1>Dalitso shapi web developer.</h1>
+<br>
+
+<h3 id="about">ABOUT</h3>
+<hr>
+<br>
+
+<h4>HI! my name is Dalitso mwewa Shapi</h4> 
+
+<p>
+	Im a webpage developer, a computer scientist in programming and music producer in FL studio software. If you want assistance with website i can assist you.
+
+</p>
+
+<br>
+<br>
+
+<h3 id="about">Proffessional info</h3>
+<hr>
+<br>
+	<ul>
+
+		<li >
+			   Download resume :<a href="shapiResume.docx" download>  <button>download</button></a>
+			</li>
+			<br>
+			<li >
+			   Download CV   :<a href="shapiCV.docx" download>  <button>download</button></a>
+			</li>
+
+	</ul>
+
+
+
+
+        </div>
+
+</div>
+
+</div>
+
+<br>
+
+
+    <center> <h1>Websites created.</h1></center>
+    <hr>
+
+
+    <br>
+<div class="con">
+
+
+
+<a href="https://dalitso92.github.io/id-business-connect/"> <img  src="logo.jpg" alt="id id-business-connect"></a>
+
+<a href="https://ruukybeat.tiiny.io"><img  src="2.png" alt="DALITSO SHAPI"></a>
+
+
+
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+<center>
+		<div class="container2">
+                 
+                 <h2 id="contact">Contact</h2>
+
+               
+
+<form action="send_email.php" method="POST">
+
+<input type="text" name="name" placeholder="Your name" required>
+<br>
+<input type="email" name="email" placeholder="Your email" required>
+<br>
+<input type="text" name="subject" placeholder="Subject" required>
+<br>
+<textarea name="message" placeholder="Your Message" required></textarea>
+<br>
+<button class="b2" type="submit">Send Message</button>
+</form>
+
+
+	
+       </div>
+
+</center>
+
+
+
+<br>
+
+
+
+
+<div class="foot">
+<h2 id="contacts">
+	contact
+</h2>
+	<div class="links">
+		<a href="https://www.facebook.com/profile.php?id=100075741066147"><img src="fb.png" width="40" height="40"></a>
+
+		<a href="https://www.linkedin.com/in/mwewa-shapi- 62725729b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=a ndroid_app"><img src="lin.png" width="40" height="40"></a>
+
+		<a href=""></a>
+	</div>
+
+	<div class="nav">
+		<ul>
+					<li><a href="#about">about</a></li>
+						<li><a href="#contact">contact</a></li>
+		</ul>
+	</div>
+	
+	
+	
+</div>
+
+<div class="designer">
+		<p>Copyright &copy2025; Designed by 
+
+			<span>Dalitso Shapi</span>
+		</p>
+		
+	</div>
+
+
+
+
+</body>
+</html>
